@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header > nav{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+}
+section > ul > li{
+    list-style: none;
+    margin: 0px 20px;
+    font-size: larger;
+}
+ section > ul{
+    display: flex;
+}
+header > nav > ul > h1:hover{
+    transform: scale(1.1);
+}
+section > nav > ul > li:hover{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+section > ul:nth-child(2) > li > i{
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapermemory.com/uploads/357/angry-birds-background-hd-2560x1440-256695.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.content > .col:nth-child(1) > img{
+    width: 25vw;
+    height: 35vh;
+    margin-left: 20%;
+    margin-top: 15vh;
+}
+.content > .col:nth-child(2) > img{
+    width: 40vw;
+    height: 80vh;
+    margin-top: 25%;
+    margin-left: 80px;
+}
+.content > .col:nth-child(1) > button{
+    margin-left: 14vw;
+    margin-top: 10vh;
+    padding: 15px 50px;
+    font-size: larger;
+    border-radius: 1rem;
+    background-color: yellow;
+}
+.content > .col:nth-child(1) > button:hover{
+    background-color: rgb(134, 134, 10);
+}
+.image{
+    background-image: url("http://wallpaperstock.net/angry-birds--search_wallpapers_55622_852x480.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2{
+    background-image: url("https://i.pinimg.com/originals/52/3f/49/523f495d7ecb42a5d745b426152f04df.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
